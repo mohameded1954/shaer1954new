@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" ,charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script type="text/javascript" src="ckeditor.js"></script>
+    <link rel="stylesheet" href="style1.css" >
+    <title>Elshaer Academy</title>
+    
+</head>
+<body>
+    <hr />
+    <ul class="topmenu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="LECTURE1.html">HTML </a></li>
+        <li><a href="CSS.html">CSS </a></li>
+        <li><a href="Javascript.html">Javascript</a></li>
+        <li><a href="unit04.html">Java</a></li>
+        <li><a href="unit04.html">C++</a></li>
+        <li><a href="unit04.html">Python</a></li>
+
+    </ul>
+    <hr />
+
+    <h1 align="center" style="font-size :40px">   HTML </h1>
+    <p align="center" style="font-size :30px;color:red">   Lecture No3 </p>
+    <p> <a href="#C1"> HTMLText Formatting </a> </p>
+    <p> <a href="#C2">HTML Colors </a> </p>
+    <p> <a href="#C3">HTML Links </a> </p>
+    <p> <a href="#C4">HTML Images </a> </p>
+    <p> <a href="#C5">HTML Entities</a> </p>
+    <p> <a href="#C6">Lecture Summary</a> </p>
+
+    <p id="C1" class="pstyle1">HTML Text Formatting:</p>
+<pre class="text_style">
+     HTML language provides sevral elements to define text to appear in the required form in the web page.
+
+<span style="font-size:20px "> <b>Bold Text</b></span>
+    Text between &ltb&gt....&lt/b&gt will appear <span style=" color:red">bold.</span>
+   
+<span style="font-size:20px "> <b>Strong Text</b></span>
+    Text between &ltstrong&gt....&lt/strng&gt will appear <span style=" color:red">strong.</span>
+
+<span style="font-size:20px "> <b>Italic Text</b></span>
+    Text between &lti&gt....&lt/i&gt will appear <span style=" color:red">italic.</span>
+
+<span style="font-size:20px "> <b>Underlined Text</b></span>
+    Text between &ltu&gt....&lt/u&gt will appear <span style=" color:red">underline.</span> 
+
+The program for text formatting will be as follows:
+ </pre>
+    <img style="border :4px solid red  " src="formatting1.png" alt="File Not Found" width="800" height="300">
+    <p> The formatted text will be displayed as follows:</p>
+    <img style="border :4px solid red  " src="formatting01.png" alt="File Not Found" width="600" height="300">
+    <pre class="text_style">
+
+    Still there are some other tools or options for text formatting, such as:
+    <span style=" color:red">superscript</span> which displays the text half a character's height <span style=" color:red">above </span> the other characters.
+    <span style=" color:red">subscript</span> which displays the text half a character's height  <span style=" color:red">under</span> the other characters.
+    <span style=" color:red">strike</span> which will display text with a a thin line through the <span style="color : red "><strike>text</strike> </span> .
+    <span style=" color:red">del</span> which will display text as deeted  <span style="color : red "><del>text</del> </span> .
+    <span style=" color:red">big</span> which will display text one font size larger than the rest of the other <span style="color : red "><big>text</big> </span> .
+    <span style=" color:red">small</span> which will display text one font size smaller than the rest of the other <span style="color : red "><small>text</small> </span> .
+        formatting examples are shwon in the following program.
+</pre>
+    <img style="border :4px solid red  " src="formatting2.png" alt="File Not Found" width="800" height="400">
+    <p> The result will be:</p>
+    <img style="border :4px solid red  " src="formatting21.png" alt="File Not Found" width="800" height="400">
+    <p id="C2" class="pstyle1">HTML Colors:</p>
+
+    <pre class="text_style">
+    Colors are very important to give a good look and feel to websites.
+Colors can be set in web pages either by color name or HEX or RGB values.
+In color name configuration, the direct name of the color, red,green,blue,...is written in the html element.
+While in HEX color configuration a hexadecimal value #008000 for green, #FF0000 for red ,#0000FF for blue,....is written in the html element.
+and in RGB configuration three values are written inside parentheses separeted by comma following rgb letters,rgb(0,0,0),rgb(0,255,0),rgb(0,0,255).
+</pre>
+    <p style="font-size: 20px ;color:red"> <b>Color Names:</b></p>
+    <pre class="text_style">HTML supports 140 standard color names.
+These colors can be used to decorate and change the color of the background, text, and tables on a web page.
+Some of these colors are in the following program. 
+</pre>
+    <img style="border :4px solid red  " src="colorsin.png" alt="File Not Found" width="800" height="300">
+    <p>The result will be:</p>
+    <img style="border :4px solid red  " src="colorsout.png" alt="File Not Found" width="400" height="300">
+    <p style="font-size:20px;color:red"><b>Colors in HEX values: </b></p>
+    <p>Example Program for Colors in HEX values:</p>
+    <img style="border :4px solid red  " src="colorsin2.png" alt="File Not Found" width="800" height="250">
+    <p>The output of this program  will be:</p>
+    <img style="border :4px solid red  " src="colorsout2.png" alt="File Not Found" width="400" height="250">
+    <p style="font-size:20px;color:red"><b> Colors in RGB values:</b></p>
+    <p>Example Program for Colors in RGB values:</p>
+    <img style="border :4px solid red  " src="colorsin3.png" alt="File Not Found" width="800" height="250">
+    <p>The output of this program  will be:</p>
+    <img style="border :4px solid red  " src="colorsout3.png" alt="File Not Found" width="400" height="250">
+    <pre class="text_style">      Text and borders can also be set to the rquired colors by HTML statements and color names and value.
+ The following example shows colored text and border program. </pre>
+    <img style="border :4px solid red  " src="clrtxtin.png" alt="File Not Found" width="900" height="300">
+    <p>The output of this program  will be:</p>
+    <img style="border :4px solid red  " src="clrtxtout.png" alt="File Not Found" width="400" height="250">
+    <p id="C3" class="pstyle1">HTML Links:</p>
+
+    <pre class="text_style">    A link or hyperlink is a connection from one web page to another, the internet is made up of lots of links.
+Almost any web content can be converted to a link so that when clicked or otherwise activated
+the web browser goes to another web address (URL).
+A link has two ends, called anchors. The link starts at the source anchor and points to the
+destination anchor, which may be any web resource, for example, an image, an audio or video clip,
+a PDF file, an HTML document or an element within the document itself, and so on.
+Normally HTML link is colored to show whether its <u> <span style="color:blue">Unvisited</span></u> or  <u> <span style="color:purple">visited</span></u> or  <u> <span style="color:red">active.</span> </u> 
+    <b> Note:</b> A link does not have to a text,It can be an image or any HTML element.
+</pre>
+    <p style="font-size: 20px ;color:red"> HTML Link Syntax:</p>
+    <pre class="text_style"> The <span style="color:red">&lt; a &gt; </span>tag is used to specify HTML link in web pages.
+the hyper link will look like:  &lt; <span style="color:red">a href</span>="URL"&gt; link text &lt; <span style="color:red">/a</span>&gt;,Where <span style="color:red">href</span> attribute indicates the required destination.
+and "link text" is the visible part to the reader.
+    <b> Note: </b> Search engines use link text to index target files, 
+            it is a good idea to include key words in link text to describe what is being linked to.
+also "title" attribute can be added to the link to give more useful information.</pre>
+    <p style="font-size: 20px ;color:red"> The target attribte:</p>
+    <pre class="text_style">The target attribute tells the browser where to open the linked document.The <span style="color:red">target</span>attribute has the following values: </pre>
+
+    <ul style="font-size:16px;line-height:1.6">
+        <li>
+            <span style="color:red">_self </span>     Default. Opens the document in
+            the same window/tab as it was clicked
+        </li>
+        <li>
+            <span style="color:red">_blank </span>   Opens the documet in a new window or tab
+        </li>
+        <li>
+            <span style="color:red">_parent </span>  Opens the document in the parent frame
+        </li>
+        <li>
+            <span style="color:red"> _top </span>   Opens the document in the full body of the window
+        </li>
+
+    </ul>
+
+    <p style="font-size :20px;color:red"> Example of link configuration: </p>
+    <img style="border :4px solid red  " src="linkexmp.png" alt="File Not Found" width="900" height="300">
+    <p style="font-size :20px;color:red"> Absolute versus relative URL: </p>
+    <pre class="text_style"> -Absolute URL uses a full web page address in href attribute.
+ - relative link is a link to a page within the website without the https://www part.
+</pre>
+    <p style="font-size :20px;color:red"> Example of absolute and relative links: </p>
+    <img style="border :4px solid red  " src="ARlinkexmp.png" alt="File Not Found" width="900" height="300">
+    <p id="C4" class="pstyle1">HTML Images:</p>
+    <pre class="text_style"> With text only and without graphics web pages will be borng,embeding images and other multimedia types can make web pages more attractive 
+<span style="color:red">&ltimg&gt</span> element is used to embed graphics in webpages.this element is an empty element i.e it has no text content or closing tag.
+and requires a minimum of one attribute to be useful.it is the <span style="color:red">src</span> attribute which contains the path pointing to the graphic.
+also <span style=" color:red"> alt  </span> attrbute is useful to provide an alternate text for an image, if the user cannot view it
+ </pre>
+    <p style="font-size :20px;color:red"> HTML Img Syntax: </p>
+    <pre class="para_style1">     &lt; <span style="color:palevioletred"> img</span><span style="color:red">  src </span> <span style="color:blue">Graphic URL or Graphic name</span>  <span style="color:red"> alt  </span> <span style="color:blue">text to be shown if te graphic was not found </span> &gt</pre>
+    <p style="font-size :20px;color:red"> Graphic Example: </p>
+    <pre style="width:50%" class="para_style1"> &lt; <span style="color:palevioletred">img </span> <span style="color:red">src</span> = <span style="color:blue"> "pyramids.jpg"</span> <span style="color:red">alt</span>  = <span style="color:blue"> "pyramids in egypt"</span> &gt</pre>
+    <img style="border :4px solid red  " src="pyramids.png" alt="pyramids in egypt" width="800" height="200">
+    <p style="font-size :20px;color:red"> The result will be: </p>
+    <img style="border :4px solid red  " src="graph01.png" alt="pyramids in egypt" width="800" height="300">
+    <pre class="text_style"> You can use <span style="color:red"> width and height </span> attributes to control picture dimenssions to fit in the available space
+            The following example shows that:
+</pre>
+    <img style="border :4px solid red  " src="graph02.png" alt="pyramids in egypt" width="800" height="200">
+    <pre class="text_style"> according to the new dimenssions the result will be :</pre>
+    <img style="border :4px solid red  " src="graph03.png" alt="pyramids in egypt" width="400" height="200">
+    <pre class="text_style para_style2">  <span style="font-size:20px ;color:red">Note:</span> if you set the image size too big or too small , the image may look disorted and fuzzy
+         therefore you should maintain the correct aspect ratio, you can use an image editor 
+         to put your image at the correct size before putting it in the webpage</pre>
+
+    <p id="C5" class="pstyle1">HTML Entities:</p>
+    <p id="C6" class="pstyle1">Lecture Summary:</p>
+
+    <pre style="font-size:30px">
+    <a style="font-size: 30px;  text-align-last: left;border-radius:5px;background-color:red" href="lecture2.html">&ltLecture No2</a>                             <a style="font-size: 30px;  text-align-last: right; border-radius: 5px; background-color: red" href="lecture4.html">&ltLecture No4</a>                                                                                                        <a style="font-size: 30px; color: green; text-align-last: right" href="LECTURE4.html">Lecture No4&gt</a>        
+        </pre>
+
+</body>
+</html>

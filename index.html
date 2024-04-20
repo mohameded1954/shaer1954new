@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="style1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Elshaer Academy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: 20px;
+            background-color: lightblue;
+            margin: 5px;
+            border: 1px solid red;
+            overflow: auto;
+            padding: 5px;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+            text-align: justify;
+        }
+
+        img {
+            float: right;
+        }
+        .active {
+            background-color: red;
+        }
+    </style>
+   
+</head>
+<body>
+    <hr>
+    <div class="scrollmenu">
+        <a href="index.html">Home</a>
+        <a href="lecture1.html">HTML </a>
+        <a href="CSS.html">CSS </a>
+        <a href="Javascript.html">Javascript</a>
+        <a href="unit04.html">Java</a>
+        <a href="unit04.html">C++</a>
+        <a href="unit04.html">Python</a>
+        <a href="unit04.html">Scratch</a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <hr>
+    <header>
+        <h1>Shaer Academy</h1>
+        <h4 style="text-align:center"> Since 2023 </h4>
+        <h3 style="text-align:center"> Become professional programmer with our well prepared material </h3>
+    </header>
+    <div class="container">
+        <div class="item1">
+            <img src="html.png" alt="photo not found">
+        </div>
+        <div>
+            <img src="css.png" alt="photo not found">
+        </div>
+        <div>
+            <img src="js.png" alt="photo not found">
+        </div>
+        <div>
+            <img src="php.jpg" alt="photo not found">
+        </div>
+        <div>
+            <img src=" py.jpeg" alt="photo not found">
+        </div>
+        <div>
+            <img src="c++.png" alt="photo not found">
+        </div>
+        <div>
+            <img src="sc.png" alt="photo not found">
+        </div>
+
+    </div>
+    <br />
+
+    <p class="clearfix">
+        <img src="mypic01.jpg" alt="photo not found" style="width:120px;height:120px;">
+        Shaer Academy is one of the best sites in computer programming teaching and skill enhancement.
+        The main purpose of Shaer Academy is to provide practical specialized training in computer programming.
+        Computer langugages such as HTML,CSS,JavaScript,PHP,C++,Python,scratch and other programming languages
+        will be presented in a simple way.The Explanation will be supported by varaity of Execises.
+        Materials presented through the follwing pages are designed to start from ground level.
+        Kids starting from 10 years old will find a lot of <span style=" color:red">FUN</span> in learning SCRATCH.
+    </p>
+    <br />
+    <footer>
+        <div class="footer">
+            <p>
+                Copyright &copy; 2023 Shaer Academy &trade;,
+                No material may be reproduced without written permission.
+                <a href="mailto:mmelshaer54@gmail.com" title="mmelshaer54@gmail.com">Contact Shaer Academy</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+

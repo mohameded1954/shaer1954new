@@ -1,0 +1,53 @@
+
+
+h1 {color:red;font-size: 200%;font-family: Audiowide, sans-serif; text-align: center;}
+body {text-size-adjust: 100%;background-color: #60F5DF;font-family: Verdana,sans-serif;font-size:120%}                             
+p {font-size: 16px;}
+a {text-decoration: none;display: inline-block;padding: 8px 16px;}
+a:hover {background-color: #ddd;color: black;}
+.previous {background-color:#04AA6D;color: black;}
+.next {background-color: #04AA6D;color:white;}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {float: right;display: block;}
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {position: absolute;right: 0;top: 0;}
+    .topnav.responsive a {float: none;display: block;text-align: left;}
+}
+
+
+.container{display:grid;grid-template-columns:auto auto auto auto auto auto auto auto;justify-content:center}
+.item1 {align-content: center;}
+.para_style1 {font-size:16px;border:solid 2px;background-color:antiquewhite;height:50px;width:75%;padding-top:25px;margin:2px;}   
+#tbl {font-size: 22px;border-collapse: collapse;margin: 0px;border: 1px solid black;background-color: lightgreen;margin-left: auto; margin-right: auto;}
+tr:hover {background-color: coral;}
+th {background-color: yellow;}    
+.pstyle1 {font-size: 25px;color: red;font-weight: bold}
+.footer {background-color: gray;color: red;padding: 2px;font-size: 100%;margin: 2px;}
+    
+   
+            
+        

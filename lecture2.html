@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" ,charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script type="text/javascript" src="ckeditor.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>Elshaer Academy</title>
+    
+</head>
+<body>
+    <hr />
+    <ul class="topmenu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="LECTURE1.html">HTML </a></li>
+        <li><a href="CSS.html">CSS </a></li>
+        <li><a href="Javascript.html">Javascript</a></li>
+        <li><a href="unit04.html">Java</a></li>
+        <li><a href="unit04.html">C++</a></li>
+        <li><a href="unit04.html">Python</a></li>
+
+    </ul>
+    <hr />
+
+    <h1 align="center" style="font-size :60px">   HTML </h1>
+    <h1 align="center" style="font-size :40px">   Lecture No2 </h1>
+    <p> <a href="#B1"> HTML Elements </a> </p>
+    <p> <a href="#B2">HTML Attributes </a> </p>
+    <p> <a href="#B3">HTML Comments </a> </p>
+    <p> <a href="#B4">HTML Headers </a> </p>
+    <p> <a href="#B5">HTML Paragraphs</a> </p>
+    <p> <a href="#B6">Lecture Summary</a> </p>
+
+    <p id="B1" class="pstyle1">HTML Elements:</p>
+    <p> Normally Html elements are tagnames which start with opening tag and end with closing tag , while some do not end with closing tags  </p>
+    <p> Between opening tag and closing tag the data which will be displayed by internet browser</p>
+    <p> Tagnames are the basic tools for building web page</p>
+    <p> The syntax of Html tag is :<span style="color:red;font-weight:bold"> &lt;  tagename &gt;</span>  Data <span style="color:red;font-weight:bold">&lt; tagename &gt;</span>  </p>
+    <img style="border :4px solid red  " src="tagname.png" alt="File Not Found" width="800" height="250">
+    <p> List of most commonly used tagnames are in the following table</p>
+    <table id="tbl">
+        <tr>
+            <th style="width :140px">
+                Tagname
+            </th>
+            <th style="width :600px">
+                Description
+            </th>
+        </tr>
+        <tr>
+            <td>
+                &lt!--... --&gt
+            </td>
+            <td>
+                Defines a comment.
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                &lt!DOCTYPE&gt
+            </td>
+            <td>
+                Defines the document type.
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                &lta&gt
+            </td>
+            <td>
+                Hyperlink tag.
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                &ltabbr&gt
+            </td>
+            <td>
+                Abbrivation tag.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                &ltaddress&gt
+            </td>
+            <td>
+                Contact information for the author/owner.
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                &ltarticle&gt
+            </td>
+            <td>
+                Defines an article.
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                &ltb&gt
+            </td>
+            <td>
+                Bold text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltbody&gt
+            </td>
+            <td>
+                Defines the document's body.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltbr&gt
+            </td>
+            <td>
+                Used for single line break.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltbutton&gt
+            </td>
+            <td>
+                Clickable buttons.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltcaption&gt
+            </td>
+            <td>
+                Defines a table caption.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltdiv&gt
+            </td>
+            <td>
+                Contains a section in a document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltdl&gt
+            </td>
+            <td>
+                Descripition list.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltdt&gt
+            </td>
+            <td>
+                Defines a term in decription list.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltem&gt
+            </td>
+            <td>
+                For emphasized text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltfooter&gt
+            </td>
+            <td>
+                Defines a footer for a document or section.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltform&gt
+            </td>
+            <td>
+                Defines an HTML form for user input.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lth1&gtto&lth6&gt
+            </td>
+            <td>
+                HTML headings.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lthead&gt
+            </td>
+            <td>
+                Defines header section of HTML document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltheader&gt
+            </td>
+            <td>
+                It defines the header of a section or webpage.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lthr&gt
+            </td>
+            <td>
+                Draws horizontal line.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lthtml&gt
+            </td>
+            <td>
+                Defines the start of HTML document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltiframe&gt
+            </td>
+            <td>
+                Defines embedded external content into current web document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltimg&gt
+            </td>
+            <td>
+                Used to insert image into a web document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lth1&gtto&lth6&gt
+            </td>
+            <td>
+                HTML headings.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltinput&gt
+            </td>
+            <td>
+                Defines a get information in selected input.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltlabel&gt
+            </td>
+            <td>
+                Defines a label for an &ltinput&gt element.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltli&gt
+            </td>
+            <td>
+                Defines a list item.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltmeta&gt
+            </td>
+            <td>
+                Used to provide structured metadata about a web page.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltnav&gt
+            </td>
+            <td>
+                Defines navigation links.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltol&gt
+            </td>
+            <td>
+                Defines an ordered list.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltp&gt
+            </td>
+            <td>
+                Used to represents a paragraph text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltpre&gt
+            </td>
+            <td>
+                Used to represents preformatted text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltscript&gt
+            </td>
+            <td>
+                Defines client-side JavaScript.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltsection&gt
+            </td>
+            <td>
+                It defines a generic section for a document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltspan&gt
+            </td>
+            <td>
+                Used to grouping and applying styles to inline elements.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltstrong&gt
+            </td>
+            <td>
+                Defines important text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltstyle&gt
+            </td>
+            <td>
+                Defines style information for a document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttable&gt
+            </td>
+            <td>
+                It is used to display data in tabular form (row * column).
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttbody&gt
+            </td>
+            <td>
+                Used for grouping table rows.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttd&gt
+            </td>
+            <td>
+                Defines a cell in a table.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttfoot&gt
+            </td>
+            <td>
+                Used to adding a footer to a table.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltth&gt
+            </td>
+            <td>
+                Defines a header cell in a table
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltthead&gt
+            </td>
+            <td>
+                Groups the header content in a table
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttime&gt
+            </td>
+            <td>
+                Represents the date and/or time in an HTML document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttitle&gt
+            </td>
+            <td>
+                Represents title to an HTML document.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &lttr&gt
+            </td>
+            <td>
+                Defines a row of cells in a table.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltu&gt
+            </td>
+            <td>
+                Represents underlined text.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltul&gt
+            </td>
+            <td>
+                Defines an unordered list of items.
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                &ltvideo&gt
+            </td>
+            <td>
+                Used to embed video content.
+            </td>
+
+        </tr>
+    </table>
+    <p id="B2" class="pstyle1">HTML Attributes:</p>
+    <pre style=" font-size: 16px; line-height: 1.6">    An attribute is used to define the characteristics of an HTML element by giving additinal informations.
+These informations adjust element'behavior and configuration. 
+The attributes are placed inside the element's opening tag.
+Attributes usually come in name/value pairs like: name="value".
+</pre>
+    <pre style=" font-size: 16px; line-height: 1.6">      [align,alt,background,bgcolor,border,charset,color,height,herf,lang,span,src,target,width,...]
+are all attributes used to adjust tagnames.
+</pre>
+    <p style="font-size: 20px; color: red"> Attribute Examples: </p>
+    <p>Align attribute:</p>
+    <pre style=" font-size: 20px; width: 50%; border: dashed; background: #D0D3D4 ">           &ltbody&gt
+              &lt p <span style="color:red">align</span>=<span style="color:green">"left"</span> paragraph no1   &lt/p&gt
+              &lt p <span style="color:red">align</span>=<span style="color:green">"center"</span> paragraph no2 &lt/p&gt
+              &lt p <span style="color:red">align</span>=<span style="color:green">"right"</span> paragraph no3  &lt/p&gt
+          &lt/body&gt </pre>
+    <p>The result will be:</p>
+    <pre style=" font-size: 20px; width: 50%; border: dashed; background: #A3E4D7 ">
+     paragraph no1
+                     paragraph no2
+                                      paragraph no3
+        </pre>
+    <p>Font and color  attributes(more than one attribute can be applied to the same tag):</p>
+    <pre style=" font-size: 20px; width: 50%; border: dashed; background: #D0D3D4 ">   &ltbody&gt
+      &lt p <span style="color:red">font</span>=<span style="color:green">"20px"</span>;<span style="color:red">color</span>=<span style="color:green">"red"</span>   paragraph no1 &lt/p&gt
+      &lt p <span style="color:red">font</span>=<span style="color:green">"25px"</span>;<span style="color:red">color</span>=<span style="color:green">"green"</span> paragraph no1 &lt/p&gt
+      &lt p <span style="color:red">font</span>=<span style="color:green">"30px"</span>;<span style="color:red">color</span>=<span style="color:green">"blue"</span>  paragraph no1 &lt/p&gt
+   &lt/body&gt
+</pre>
+    <p>The result will be:</p>
+
+    <pre style=" font-size: 20px; width: 50%; border: dashed; background: #A3E4D7 ">
+    <span style="color:red;font-size:20px"> paragraph no1</span>
+    <span style="color:green;font-size:25px"> paragraph no2</span>              
+    <span style="color:blue;font-size:30px"> paragraph no3</span>
+</pre>
+    <p id="B3" class="pstyle1">HTML Comments:</p>
+    <pre style=" font-size: 16px;line-height:1.6">     Comment is a piece of code which is ignored by any web browser, but they can help document your HTML source code.
+Comments help you and others understand your code and increases code readability.
+HTML comments are placed in between &lt!-- ........ --&gt tags.
+ </pre>
+    <p font-size="20px">Example</p>
+    <pre style=" font-size: 20px; width: 50%; border: dashed; background: #D0D3D4 ">  
+ &lt!DOCTYPE&gt 
+ &lthtml&gt
+   &lthead&gt     <span style=" color:red">&lt!-- The start of head section --&gt</span>
+      &lttitle&gt Comment Example &lttitle&gt
+   &lthead&gt     <span style=" color:red">&lt!-- The End of head section --&gt</span>
+      &ltbody&gt    
+         &ltp> paragraph no1   &lt/p&gt
+         &ltp> paragraph no2   &lt/p&gt
+         &ltp> paragraph no3   &lt/p&gt
+      &lt/body&gt 
+ &lt/html&gt  
+</pre>
+    <p>The result will be:</p>
+    <img style="border :4px solid red  " src="comexamp.png" alt="File Not Found" width="600" height="300">
+    <p style="font-size :16px">Both comment statements at the start and the end of head section were ignore by the web browser</p>
+    <p id="B4" class="pstyle1">HTML Headers:</p>
+    <pre style="font-size: 16px; line-height: 1.6">   HTML headings are used to display titles or subtitles in web pages.
+The &lth1&gt to &lth6&gt HTML elements represent six levels of section headings. 
+&lth1&gt is the highest section level and &lth6&gt is the lowest.</pre>
+    <p> when you type the next program in Notepad: </p>
+    <img style="border :4px solid red  " src="head.png" alt="File Not Found" width="600" height="300">
+    <p>And open it in the web browser ,The result will be:</p>
+    <img style="border :4px solid red  " src="headexamp.png" alt="File Not Found" width="600" height="300">
+    <pre style="font-size: 16px; font-weight: bold; line-height: 1.6">    It is highly recommended to use only one &lth1&gt per page or view,and
+NOT to use heading elements to resize text. Instead, use the CSS font-size property.</pre>
+    <p id="B5" class="pstyle1">HTML Paragraphs:</p>
+    <pre style=" font-size:16px;line-height:1.6">     The paragraph is usually a block of text and is defined by the <b>&lt p &gt</b>  HTML tag
+So anything mentioned within <b>&lt p &gt</b> and <b>&lt/ p &gt</b> is treated as a paragraph.
+Extra spaces and lines in the paragraphs will be egnored by web browsers.
+
+Note: The align attribute on <b> &lt p &gt</b> tags is obsolete and shouldn't be used.</pre>
+    <p style="font-size:20px">HTML Paragraph Example</p>
+    <img style="border :4px solid red  " src="paragraphin.png" alt="File Not Found" width="600" height="400">
+    <p> The result will be :</p>
+    <img style="border :4px solid red  " src="paragraphout.png" alt="File Not Found" width="600" height="250">
+    <p id="B6" class="pstyle1">Lectures Summary:</p>
+    <hr>
+    <pre>
+    <a style="font-size: 30px; color: green; text-align-last: left" href="LECTURE1.html">&ltLecture No1</a>                                                                                                          <a style="font-size: 30px; color: green; text-align-last: right" href="LECTURE3.html">Lecture No3&gt</a>        
+        </pre>
+
+</body>
+</html>
